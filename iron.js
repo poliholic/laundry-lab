@@ -8,10 +8,11 @@ var wrinkled_clothes = [
 ];
 
 /* YOUR CODE HERE */
-function iron(clothing_item){
-    // return ironed_clothing_item;
-}
+function iron(wrinkled_clothes) {
+return wrinkled_clothes.toLowerCase();
+};
 
+iron ("grEEN ShirT")
 
 /* PRINT RESULT */
 console.log("--> Finished running iron.js");
